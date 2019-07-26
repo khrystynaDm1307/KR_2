@@ -1,0 +1,456 @@
+body {
+    z-index: 0;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #76ca1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.forPass{
+    text-align: center;
+    display: none;
+}
+.mainBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.file{
+    display: none;
+    margin: 10px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.forHtml {
+    display: none;
+}
+
+main {
+    padding: 20px;
+    height: 100vh;
+    background-size: cover
+}
+
+textarea {
+    padding: 20px;
+    display: none;
+}
+
+.forTable {
+    width: 800px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(244, 248, 244)
+}
+.listFont{
+    min-width: 150px;
+    height: 200px;
+    border: 1px solid rgb(182, 181, 181);
+    margin: 20px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    display: none;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    z-index: 3;
+}
+.listFont li{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+.listSize li{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+.listSize{
+    width: 100px;
+    height: 250px;
+    border: 1px solid rgb(231, 229, 229);
+    margin: 20px;
+    position: absolute;
+    top: 50px;
+    left: 54%;
+    display: none;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    z-index: 3;
+}
+.modalTable {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(12, 12, 12, 0.397);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.r{
+    width: 45%;
+}
+.modalColors {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(12, 12, 12, 0.397);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.modalUl {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(12, 12, 12, 0.397);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.modalOl {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(12, 12, 12, 0.397);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.modalBg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(12, 12, 12, 0.397);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.boxBg {
+    width: 400px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(244, 248, 244);
+}
+
+.container {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.signModal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(12, 12, 12, 0.397);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: none
+}
+
+.boxSign {
+    width: 400px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(244, 248, 244);
+}
+
+.for2btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxUl {
+    width: 500px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(244, 248, 244);
+}
+
+.btn {
+    width: 45%;
+}
+
+.boxModalColors {
+    width: 400px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(244, 248, 244);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.smallBox {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.smallBox1 {
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 3px;
+    background-position: center;
+    background-size: cover;
+}
+
+.containerImg {
+    display: none;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.bgImage0 {
+    background-image: url(IMG/bg/nature-wallpapers-1920x1080-00016.jpg)
+}
+
+.bgImage1 {
+    background-image: url(IMG/bg/nature-wallpapers-1920x1080-00028.jpg)
+}
+
+.bgImage2 {
+    background-image: url(IMG/bg/picture-359852.jpg)
+}
+
+.bgImage3 {
+    background-image: url(IMG/bg/wallpapers-nature-012.jpg)
+}
+
+.bgImage4 {
+    background-image: url(IMG/bg/wallpapers-nature-013.jpg)
+}
+
+.bgImage5 {
+    background-image: url(IMG/bg/wallpapers-nature-015.jpg)
+}
+
+.bgImage6 {
+    background-image: url(IMG/bg/wallpapers-nature-023.jpg)
+}
+
+.bgImage7 {
+    background-image: url(IMG/bg/wallpapers-nature-029.jpg)
+}
+
+.bgImage8 {
+    background-image: url(IMG/bg/wallpapers-nature-4.jpg)
+}
+
+.cl0 {
+    background-color: #d43f1a
+}
+
+.cl1 {
+    background-color: #d17f21
+}
+
+.cl2 {
+    background-color: #e7c321
+}
+
+.cl3 {
+    background-color: #7fcc1b
+}
+
+.cl4 {
+    background-color: #1adf6c
+}
+
+.cl5 {
+    background-color: #13c58a
+}
+
+.cl6 {
+    background-color: #39c3e6
+}
+
+.cl7 {
+    background-color: #2b5fec
+}
+
+.cl8 {
+    background-color: #8120db
+}
+
+.cl9 {
+    background-color: #cf20df
+}
+
+.cl10 {
+    background-color: #dd268b
+}
+
+.cl11 {
+    background-color: #e22454
+}
+
+.cl12 {
+    background-color: #b1b1b1
+}
+
+.cl13 {
+    background-color: #5c5c5c
+}
+
+.cl14 {
+    background-color: #0c0c0c
+}
+
+.butn {
+    background-color: rgb(245, 231, 214);
+    border-radius: 3px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.butn:hover {
+    background-color: rgb(231, 216, 197);
+}
+
+.box {
+    margin: 0 20px 0 20px;
+    background-color: rgb(245, 231, 214);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.butn div {
+    background-image: url('IMG/icons/завантаження.png');
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.bold {
+    background-position: 0 0;
+}
+
+.center {
+    background-position: 0 -24px;
+}
+
+.code {
+    background-position: 0 -48px;
+}
+
+.font {
+    background-position: 0 -72px;
+}
+
+.italic {
+    background-position: 0 -96px;
+}
+
+.left {
+    background-position: 0 -120px;
+}
+
+.ul {
+    background-position: 0 -144px;
+}
+
+.image {
+    background-position: 0 -168px;
+}
+
+.right {
+    background-position: 0 -192px;
+}
+
+.color {
+    background-position: 0 -216px;
+}
+
+.str {
+    background-position: 0 -240px;
+}
+
+.table {
+    background-position: 0 -264px;
+}
+
+.tSize {
+    background-position: 0 -288px;
+}
+
+.underline {
+    background-position: 0 -312px;
+}
+
+.ol {
+    background-position: 0 -144px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.italicText {
+    font-style: italic;
+}
+
+.underlineText {
+    text-decoration: underline;
+}
+
+.strText {
+    text-decoration: line-through;
+}

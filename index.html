@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!-- buttons -->
+        <div class="mainBtns">
+            <div class="butn box">
+                <div class="code"></div>
+            </div>
+            <div class="box">
+                <div class="butn">
+                    <div class="bold"></div>
+                </div>
+                <div class="butn">
+                    <div class="italic"></div>
+                </div>
+                <div class="butn">
+                    <div class="underline"></div>
+                </div>
+                <div class="butn">
+                    <div class="str"></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="butn">
+                    <div class="left"></div>
+                </div>
+                <div class="butn">
+                    <div class="center"></div>
+                </div>
+                <div class="butn">
+                    <div class="right"></div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="butn">
+                    <div class="font"> </div>
+
+                </div>
+
+                <div class="butn">
+                    <div class="tSize"></div>
+                </div>
+                <div class="butn">
+                    <div class="color"></div>
+                </div>
+                <div class="butn">
+                    <div class="image"></div>
+                </div>
+                <div class="modalF">
+                    <!-- drop menu 1 -->
+                    <div class="listFont">
+                        <li>Arial</li>
+                        <li>Times New Roman</li>
+                        <li>Impact</li>
+                        <li>Georgia</li>
+                        <li>Tahoma</li>
+                        <li>Verdana</li>
+                    </div>
+                </div>
+                <!-- drop menu 2 -->
+                <div class="listSize">
+                    <li>12px</li>
+                    <li>14px</li>
+                    <li>16px</li>
+                    <li>18px</li>
+                    <li>20px</li>
+                    <li>22px</li>
+                    <li>24px</li>
+                    <li>26px</li>
+                    <li>28px</li>
+                </div>
+                <!--  -->
+            </div>
+            <div class="butn box sign">Sign</div>
+        </div>
+
+        <div class="forHtml">
+            <div class="butn save">Save</div>
+            <div class="butn">
+                <div class="table"></div>
+            </div>
+            <div class="butn">
+                <div class="ul"></div>
+            </div>
+            <div class="butn">
+                <div class="ol"></div>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </main>
+    <textarea name="" id="" cols="190" rows="20"></textarea>
+    <!-- table -->
+    <div class="modalTable">
+        <form class="forTable" name="form">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Count TR</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control res" name="countTr" placeholder="Count TR:">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Count TD</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control res" name="countTd" placeholder="Count TD:">
+                </div>
+            </div>
+            <p id="stTable">Add style for your table:</p>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Width of TD:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control res" name="widthTd" placeholder="Width of TD:">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Height of TD:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control res" name="heightTd" placeholder="Height of TD:">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Width of border:</label>
+                    <input type="text" class="form-control res" placeholder="Width:" name="widthBorder">
+                </div>
+                <div class="form-group col-md-4">
+                    <label>Type of border</label>
+                    <select id="inputState" class="form-control" name="typeBorder">
+                        <option selected>solid</option>
+                        <option>double</option>
+                        <option>dashed</option>
+                        <option>dotted</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label>Color of border</label>
+                    <select id="inputState" class="form-control" name="colorBorder">
+                        <option selected>black</option>
+                        <option>red</option>
+                        <option>green</option>
+                        <option>yellow</option>
+                        <option>black</option>
+                    </select>
+                </div>
+            </div>
+            <div class="for2btn">
+                <button type="button" name="resetTable" class="btn btn-danger reset">Reset</button>
+                <button type="button" name="createTable" class="btn btn-success createTable">Create
+                    Table</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- div with colors -->
+    <div class="modalColors">
+        <div class="boxModalColors">
+            <div class="smallBox cl0"></div>
+            <div class="smallBox cl1"></div>
+            <div class="smallBox cl2"></div>
+            <div class="smallBox cl3"></div>
+            <div class="smallBox cl4"></div>
+            <div class="smallBox cl5"></div>
+            <div class="smallBox cl6"></div>
+            <div class="smallBox cl7"></div>
+            <div class="smallBox cl8"></div>
+            <div class="smallBox cl9"></div>
+            <div class="smallBox cl10"></div>
+            <div class="smallBox cl11"></div>
+            <div class="smallBox cl12"></div>
+            <div class="smallBox cl13"></div>
+            <div class="smallBox cl14"></div>
+        </div>
+    </div>
+    <!-- div for ul -->
+    <div class="modalUl">
+        <div class="boxUl">
+            <form name="ul">
+                <div class="form-group">
+                    <label>Count li:</label>
+                    <input type="text" class="form-control res" placeholder="Type here..." name="countLi">
+                </div>
+                <div class="form-group">
+                    <label>Type of mark</label>
+                    <select class="form-control" name="markType">
+                        <option selected>disc</option>
+                        <option>sircle</option>
+                        <option>square</option>
+                        <option>none</option>
+                    </select>
+                </div>
+                <div class="for2btn">
+                    <button type="button" name="resetList" class="btn btn-danger">Reset</button>
+                    <button type="button" name="createList" class="btn btn-success ">Create
+                        List</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- div for ol -->
+    <div class="modalOl">
+        <div class="boxUl">
+            <form name="ol">
+                <div class="form-group">
+                    <label>Count li:</label>
+                    <input type="text" class="form-control res" placeholder="Type here..." name="countLi">
+                </div>
+                <div class="form-group">
+                    <label>Type of mark</label>
+                    <select class="form-control" name="markType">
+                        <option selected>1</option>
+                        <option>I</option>
+                        <option>A</option>
+                        <option>a</option>
+                        <option>none</option>
+                    </select>
+                </div>
+                <div class="for2btn">
+                    <button type="button" name="resetList" class="btn btn-danger">Reset</button>
+                    <button type="button" name="createList" class="btn btn-success ">Create
+                        List</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- div gor sign -->
+    <div class="signModal">
+        <div class="boxSign">
+            <form name="sign">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Login here..." name="login">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Password here..." name="password">
+                </div>
+                <div class="for2btn">
+                    <button type="button" class="btn btn-secondary">Sign In</button>
+                    <div class="r">
+                        <div class="forPass">Try again!</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- background -->
+    <div class="modalBg">
+        <div class="boxBg">
+            <ul class="nav nav-tabs">
+                <li class="nav-item bgColor">
+                    <a class="nav-link active" href="#">Colors</a>
+                </li>
+                <li class="nav-item bgImg">
+                    <a class="nav-link " href="#">Images</a>
+                </li>
+                <li class="nav-item bgFile">
+                    <a class="nav-link " href="#">Files</a>
+                </li>
+            </ul>
+            <!-- colors -->
+            <div class="container">
+                <div class="smallBox cl0 bg0"></div>
+                <div class="smallBox cl1  bg1"></div>
+                <div class="smallBox cl2  bg2"></div>
+                <div class="smallBox cl3  bg3"></div>
+                <div class="smallBox cl4  bg4"></div>
+                <div class="smallBox cl5  bg5"></div>
+                <div class="smallBox cl6  bg6"></div>
+                <div class="smallBox cl7  bg7"></div>
+                <div class="smallBox cl8  bg8"></div>
+                <div class="smallBox cl9  bg9"></div>
+                <div class="smallBox cl10  bg10"></div>
+                <div class="smallBox cl11  bg11"></div>
+                <div class="smallBox cl12  bg12"></div>
+                <div class="smallBox cl13  bg13"></div>
+                <div class="smallBox cl14  bg14"></div>
+            </div>
+            <!-- img -->
+            <div class="containerImg">
+                <div class="smallBox1 bgImage0"></div>
+                <div class="smallBox1  bgImage1"></div>
+                <div class="smallBox1  bgImage2"></div>
+                <div class="smallBox1  bgImage3"></div>
+                <div class="smallBox1  bgImage4"></div>
+                <div class="smallBox1  bgImage5"></div>
+                <div class="smallBox1  bgImage6"></div>
+                <div class="smallBox1  bgImage7"></div>
+                <div class="smallBox1  bgImage8"></div>
+            </div>
+            <!-- file -->
+            <div class="custom-file file">
+                <input type="file" class="custom-file-input">
+                <label class="custom-file-label">Choose file</label>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
